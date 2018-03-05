@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+  CountersTable:
+    Type: 'AWS::DynamoDB::Table'
+    Properties:
+      TableName: counters
+      AttributeDefinitions:
+        - AttributeName: counterName
+          AttributeType: S
+      KeySchema:
+        - AttributeName: counterName
+          KeyType: HASH
+      ProvisionedThroughput:
+        ReadCapacityUnits: 1
+        WriteCapacityUnits: 1

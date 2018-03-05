@@ -1,0 +1,8 @@
+{
+  "counterName": {
+    "S": "importantCounter"
+  },
+  "currentValue": {
+    "N": "0"
+  }
+}

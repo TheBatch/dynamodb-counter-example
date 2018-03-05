@@ -1,0 +1,21 @@
+{
+  "name": "dynamodb-counter-example",
+  "version": "1.0.0",
+  "description": "Highlights two approaches to implement a counter in AWS' DynamoDB",
+  "keywords": [
+    "dynamodb"
+  ],
+  "author": "Martin Stapel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBatch/dynamodb-counter-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheBatch/dynamodb-counter-example/issues"
+  },
+  "homepage": "https://github.com/TheBatch/dynamodb-counter-example#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.205.0"
+  }
+}
